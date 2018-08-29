@@ -127,3 +127,5 @@ STATICFILES_DIRS = (
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+GOOGLE_MAPS_API_KEY = 'AIzaSyBOw5oeysSynhp-aDSz8-bGTzvKsUDSlIM'
