@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def index(request):
   """ Import Google API Key & Creates Initial Homepage View """
-  api_key = getattr(settings, 'GOOGLE_MAPS_API_KEY')
+  api_key = getattr(settings, 'AIzaSyDKfMN8F-5SX48iuH8EApAsHQgWmIfjuPY')
   context = {
     'api_key': api_key
   }
